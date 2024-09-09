@@ -37,13 +37,6 @@ public class Item {
     @Column
     private int price;
 
-//    public Item(RequestDto requestDto) {
-//        this.username = requestDto.getUsername();
-//        this.title = requestDto.getTitle();
-//        this.content = requestDto.getContent();
-//        this.Price = requestDto.getPrice();
-//    }
-
         public Item update(Item item) {
         this.username = item.getUsername();
         this.title = item.getTitle();
